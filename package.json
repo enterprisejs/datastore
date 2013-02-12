@@ -1,0 +1,27 @@
+{
+  "name": "datastore",
+  "description": "EnterpriseJS data persistence service",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Charles Martin",
+      "email": "cjay.martin@gmail.com",
+      "web": ""
+    }
+  ],
+  "dependencies": {
+    "redis": "*",
+    "airport": "*"
+  },
+  "devDependencies": {
+    "async": "*",
+    "appserver": "git://github.com/enterprisejs/appserver.git",
+    "tap": "*"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/enterprisejs/datastore.git"
+    }
+  ]
+}
